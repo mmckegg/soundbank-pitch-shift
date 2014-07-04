@@ -1,0 +1,32 @@
+{
+  "name": "soundbank-pitch-shift",
+  "version": "1.0.0",
+  "description": "Simple pitch shifter for Web Audio API based on delay nodes. Extends Jungle by Chris Wilso.",
+  "main": "index.js",
+  "dependencies": {
+    "custom-audio-node": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "beefy test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/soundbank-pitch-shift.git"
+  },
+  "keywords": [
+    "pitch",
+    "shift",
+    "waapi",
+    "guitar",
+    "glitch",
+    "audio",
+    "AudioNode"
+  ],
+  "author": "Matt McKegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmckegg/soundbank-pitch-shift/issues"
+  },
+  "homepage": "https://github.com/mmckegg/soundbank-pitch-shift"
+}
