@@ -32,7 +32,7 @@ Specify semi-tones to transpose the input signal by.
 ## Example
 
 ```js
-var PitchShift = require('soundbank-delay')
+var PitchShift = require('soundbank-pitch-shift')
 
 var audioContext = new webkitAudioContext()
 
