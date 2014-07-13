@@ -1,6 +1,6 @@
 {
   "name": "soundbank-pitch-shift",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple pitch shifter for Web Audio API based on delay nodes. Extends Jungle by Chris Wilso.",
   "main": "index.js",
   "dependencies": {
