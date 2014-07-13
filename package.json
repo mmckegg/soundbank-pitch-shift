@@ -4,7 +4,7 @@
   "description": "Simple pitch shifter for Web Audio API based on delay nodes. Extends Jungle by Chris Wilso.",
   "main": "index.js",
   "dependencies": {
-    "custom-audio-node": "~0.2.0"
+    "custom-audio-node": "^0.3.0"
   },
   "devDependencies": {},
   "scripts": {
