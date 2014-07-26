@@ -34,7 +34,7 @@ Specify semi-tones to transpose the input signal by.
 ```js
 var PitchShift = require('soundbank-pitch-shift')
 
-var audioContext = new webkitAudioContext()
+var audioContext = new AudioContext()
 
 var pitchShift = PitchShift(audioContext)
 pitchShift.connect(audioContext.destination)
