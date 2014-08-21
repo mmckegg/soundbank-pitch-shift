@@ -106,9 +106,7 @@ function createFadeBuffer(context, activeTime, fadeTime) {
     var length = length1 + length2;
     var buffer = context.createBuffer(1, length, context.sampleRate);
     var p = buffer.getChannelData(0);
-    
-    console.log("createFadeBuffer() length = " + length);
-    
+        
     var fadeLength = fadeTime * context.sampleRate;
 
     var fadeIndex1 = fadeLength;
@@ -144,8 +142,6 @@ function createDelayTimeBuffer(context, activeTime, fadeTime, shiftUp) {
     var length = length1 + length2;
     var buffer = context.createBuffer(1, length, context.sampleRate);
     var p = buffer.getChannelData(0);
-
-    console.log("createDelayTimeBuffer() length = " + length);
     
     // 1st part of cycle
     for (var i = 0; i < length1; ++i) {
